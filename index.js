@@ -28,6 +28,24 @@ const generateSVG = () => {
         }
     ]).then((res) => {
         console.log(res)
+        let svgShape;
+        if(res.shape === "Circle") {
+            svgShape = new Circle()
+        }
+        if(res.shape === "Triangle") {
+            svgShape = new Triangle()
+        }
+        if(res.shape === "Square") {
+            svgShape = new Square()
+        }
+        svgShape.setColor(res.shapeColor)
+
+        const svg = new SVG()
+        svg.setText(res.text, res.textColor)
+        svg.setShape(svgShape)
+        return writeFile("logo.svg", svg.render())
+    }).then(() => {
+        console.log("Generated logo.svg")
     })
 }
 
