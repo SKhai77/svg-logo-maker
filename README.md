@@ -25,11 +25,11 @@ The project aims is to build a Node.js command-line application that takes in us
 
 ## Installation
 
-In order to be able to run the applicaton you are required to do the following installation:
+In order to be able to run the applicaton, you are required to do the following:
 
 - Install Nodjs on your computer by downloading it from their website here, https://nodejs.org/en.
 - If you are not sure how to install it. Click here for the instruction, https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs.
-- Install VS Code extension to be able to preview SVG file. [Click here to download](https://marketplace.visualstudio.com/items?itemName=jock.svg)
+- Install the VS Code extension to be able to preview SVG files. [Click here to download](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 - Download/ clone the GitHub repo 
 - Install npm (Node Package Manager) inside the repo by typing the following code in the command line:
 ```bash
@@ -45,9 +45,9 @@ To use the application,
 
 Preview Generated SVG Logos:
 ![Generated SVG Logo](./examples/logo.svg)
-* [Generated SVG Circle Logo](./examples/circle-logo.svg)
-* [Generated SVG Square Logo](./examples/square-logo.svg)
-* [Generated SVG Triangle Logo](./examples/triangle-logo.svg)
+* [Click here for generated circle logo](./examples/circle-logo.svg)
+* [Click here for generated square logo](./examples/square-logo.svg)
+* [Click here for generated triangle logo](./examples/triangle-logo.svg)
 
 
 ## License
