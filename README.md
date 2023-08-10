@@ -8,6 +8,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Tests](#tests)
 
 ## Description
 
@@ -45,13 +46,19 @@ To use the application,
 
 Preview Generated SVG Logos:
 ![Generated SVG Logo](./examples/logo.svg)
-* [Click here for generated circle logo](./examples/circle-logo.svg)
-* [Click here for generated square logo](./examples/square-logo.svg)
-* [Click here for generated triangle logo](./examples/triangle-logo.svg)
+* [Click here for Circle logo](./examples/circle-logo.svg)
+* [Click here for Square logo](./examples/square-logo.svg)
+* [Click here for Triangle logo](./examples/triangle-logo.svg)
 
 
 ## License
 
-This project is under the MIT License. Visit their webpage for more information: (https://opensource.org/licenses/MIT).
+This project is under the MIT License. [Click here for more information](https://opensource.org/licenses/MIT).
 
 
+## Tests
+
+To run the tests, type the following code in the command line:
+```bash
+ $ npm run test
+ ```
