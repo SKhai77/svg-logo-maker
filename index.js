@@ -57,7 +57,7 @@ const generateSVG = () => {
             svg.setShape(svgShape);
             return writeFile("./examples/logo.svg", svg.render());
         }).then(() => {
-            console.log("Your SVG logo has been successfully generated as a logo.svg in examples folder");
+            console.log("Your SVG logo has been successfully generated and named logo.svg in the examples folder");
         })
 };
 
