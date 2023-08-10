@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Code Languages](#code-languages-and-runtime)
+- [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -14,9 +14,13 @@
 The project aims is to build a Node.js command-line application that takes in user input to generate a logo and save it as an [SVG file]. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
 
 
-## Code Languages and Runtime
+## Technologies
 
-- JavaScript/ Nodejs
+- JavaScript (Client-side web development)
+- Node.js (A runtime environment and server-side web development platform for JavaScript)
+- Inquirer (Node.js library)
+- Jest (JavaScript testing framework)
+- NPM (Node Package Manager for Node.js)
 
 
 ## Installation
