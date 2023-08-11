@@ -41,7 +41,14 @@ In order to be able to run the applicaton, you are required to do the following:
 ## Usage
 
 To use the application,
-- Watch the guide video by clicking the link here: https://drive.google.com/file/d/1MHTbz1pqdGKrkB4UYTTfOhWUTo2Ho4ha/view
+- To run the application, type the following code in the command line:
+```bash
+ $ npm start or node index.js
+ ```
+- Answer all the questions to generate a shape
+- Your generated shape will be named logo.svg and located in the examples folder
+- Locate the logo.svg file and right-click on it. Then click on "Open Preview"
+- Watch the demonstration video by [clicking the link here.](https://drive.google.com/file/d/1_6Lt4yGndc39o7UN_WZkwnknZAzETy7g/view)
 
 
 Preview Generated SVG Logos:
